@@ -7,8 +7,8 @@ export default function AssistantAvatar({ status }) {
   };
 
   return (
-    <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-2xl">
+    <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-lg font-semibold shadow-md border-2 border-blue-400">
       {emojiMap[status]}
     </div>
   );
-}
+} 
