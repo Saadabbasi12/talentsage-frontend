@@ -108,7 +108,7 @@ export default function Home() {
                   className="flex justify-center"
                 >
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-3xl shadow-xl hover:shadow-2xl transition-shadow">
-                    🎯
+                   👨🏿‍💻
                   </div>
                 </motion.div>
 
@@ -192,7 +192,7 @@ export default function Home() {
                   className="p-8 border-2 border-gray-200 rounded-2xl bg-white hover:border-blue-300 transition-all duration-300 cursor-default group"
                 >
                   <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                    {idx === 0 && "🎯"}
+                    {idx === 0 && "🧠"}
                     {idx === 1 && "📄"}
                     {idx === 2 && "⭐"}
                     {idx === 3 && "📅"}
@@ -283,7 +283,7 @@ export default function Home() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            &copy; 2024 TalentSage. All rights reserved.
+            &copy; 2026 TalentSage. All rights reserved.
           </motion.p>
         </motion.div>
       </section>

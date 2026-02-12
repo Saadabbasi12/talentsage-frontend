@@ -4,7 +4,7 @@ import { FiLayers, FiBarChart2, FiMail } from "react-icons/fi";
 export default function Header() {
   return (
     <header className="fixed top-0 w-full bg-black shadow-sm z-50">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto h-16 flex items-center justify-between px-6">
         
         {/* Logo */}
         <h1 className="text-xl font-extrabold text-white tracking-wide">
@@ -12,10 +12,8 @@ export default function Header() {
         </h1>
 
         {/* Navigation */}
-        <nav className="hidden md:flex items-center gap-10 text-sm font-medium">
-          
-          {/* Links */}
-          <div className="flex items-center gap-8">
+        <div className="flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
             <a
               href="#features"
               className="flex items-center gap-2 text-white hover:text-blue-400 transition"
@@ -39,17 +37,16 @@ export default function Header() {
               <FiMail className="text-lg" />
               Contact
             </a>
-          </div>
+          </nav>
 
           {/* Recruiter Login */}
           <Link
             to="/recruiter/jobs"
-            className="px-5 py-2 bg-blue-600 text-white rounded-lg
-                       hover:bg-blue-700 transition shadow-sm"
+            className="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition shadow-sm"
           >
             Recruiter Login
           </Link>
-        </nav>
+        </div>
       </div>
     </header>
   );

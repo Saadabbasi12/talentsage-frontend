@@ -10,11 +10,11 @@ export default function Counter({ value, label }) {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting && !hasStarted) {
-            setHasStarted(true); // trigger animation only once
+            setHasStarted(true); 
           }
         });
       },
-      { threshold: 0.5 } // trigger when 50% visible
+      { threshold: 0.5 } 
     );
 
     if (ref.current) {
@@ -31,7 +31,7 @@ export default function Counter({ value, label }) {
 
     let start = 0;
     const end = value;
-    const duration = 2000; // 2 seconds
+    const duration = 2000; 
     const stepTime = 30;
     const increment = Math.ceil(end / (duration / stepTime));
 
