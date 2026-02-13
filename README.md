@@ -1,7 +1,7 @@
 Overview
 
 TalentSage is a recruiter-focused frontend application designed to demonstrate modern hiring workflows enhanced with AI-assisted features.
-The project focuses on clean architecture, predictable state management, and realistic recruiter UX, rather than backend or AI model implementation.
+The project focuses on clean architecture, predictable state management, .
 
 This repository represents the frontend engineering task submission and showcases best practices in React application design.
 
@@ -73,14 +73,13 @@ http://localhost:3000
 🏗️ Build for Production
 npm run build
 
-The project includes minimum required test coverage as per task requirements.
+
 
 Covered Scenarios
-
 Core workflow behavior
 Candidate stage update reflects in UI state
 Rubric logic
-Rubric updates correctly via reducer
+Rubric updates correctly  also when video screening is done
 Assistant behavior
 Assistant open/close state toggles correctly
 Note: 1 test failed because of version incompatibility no issue in the test 
